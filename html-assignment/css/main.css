@@ -9,7 +9,7 @@ body {
 }
 
 header, footer {
-    background-color: antiquewhite;
+    background-color: rgb(244, 214, 239);
 }
 
 .site-title {
@@ -28,11 +28,15 @@ nav ul {
     list-style: none;
 }
 
+section ul li:nth-child(odd){
+    background-color: aliceblue;
+}
+
 nav a {
     text-decoration: none;
-    background-color: antiquewhite;
+    background-color: rgb(243, 215, 241);
     border: 1px solid #90c1e8;
-    color: beige;
+    color: black;
     display: inline-block;
     margin: 5px;
 }
