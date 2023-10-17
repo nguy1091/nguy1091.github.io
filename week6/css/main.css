@@ -6,6 +6,7 @@ Shortcut for adding the commnet is command/ctrl + /
 body {
     font-family: Arial, Helvetica, sans-serif;
     color: darkslategrey;
+    background-image: url(../images/white_brick_wall.png)
 }
 
 h1 {
@@ -35,8 +36,19 @@ p {
     }
     /* Selectibg element with ID value */
     /* As a best pratice, avoid using ID for style */
-    #threatoftheweek {
-        background-color: cadetblue;
+    #treatoftheweek {
+        /* color image repear position-x position-y */
+        background: cadetblue url(../images/bread.jpg);
+        /* background-size  */
+        background-size: cover;
+        font-size: 1.25rem;
+        /* 16px * 1.25 = 20px */
+        /* padding pushes the element away from the walls */
+        padding: 1em;
+        /* 1em * 20px(element font size) = 20px */
+        width: 50%;
+        /* heught is 100% of the breower size and it is dynamic */
+        /* height: 100vh; */
     }
 
     /* Selecting HTML elements with class name */
@@ -58,6 +70,12 @@ p {
     /* Direct child selector - will only select direct of parent */
     article>p {
         font-size: 24px;
+
+        /* CSS typography properties */
+        font-weight: bold;
+        line-height: 1.5;
+        text-transform: lowercase;
+        text-align: center;
     }
     
     /* Adjacent sibling selector - select the element that is the very next sibling to the selecting element, IF any exist */
