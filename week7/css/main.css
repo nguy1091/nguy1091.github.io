@@ -21,8 +21,8 @@ section p {
 
 .container {
     /* create s container containing everything inside the body tag */
-    max-width: ;width: 1200;
-    margin: 0 auto
+    max-width: width 1200;
+    margin:auto
 }
 
 img {
