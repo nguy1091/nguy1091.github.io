@@ -1,5 +1,0 @@
-/* Override all  spacing of heading, body paragraph tags  */
-h1, h2, h3, h4, p, body, ul {
-  margin: 0;
-  padding: 0;
-}
